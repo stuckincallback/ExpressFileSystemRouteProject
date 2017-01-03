@@ -1,0 +1,11 @@
+{
+  "name": "expressfilesystemrouteproject",
+  "version": "1.0.0",
+  "description": "Api to get data about file system",
+  "main": "app.js",
+  "scripts": {
+    "test": "xo & jest"
+  },
+  "author": "Govinda",
+  "license": "ISC"
+}
