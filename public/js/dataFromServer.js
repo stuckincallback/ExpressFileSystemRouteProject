@@ -23,7 +23,9 @@ function clickHandler() {
  getFileData(fileName);
 }
 function getFileData(fileName){
-  $.get('/v1/getFileData',{fileUrl:fileName}, function(data){
+   let fn = './'+fileName;
+  $.get('/v1/getFileData',{fileUrl:fn}, function(data){
+  console.log(data);
   $('#fileData').html(data);
   });
 }
