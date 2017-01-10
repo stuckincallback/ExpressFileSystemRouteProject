@@ -73,7 +73,7 @@ app.get('/v1/getFileData', function(req, res){
     })
   }
   }else{
-    res.send('sorry');
+    res.send('sorry you cant open this extension');
   }
   
   

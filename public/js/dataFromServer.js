@@ -7,6 +7,7 @@ function getAppTitle(){
    
    whiteList = data.whitelist;
    $('#appTitle').html(data.appTitle);
+   
    // $().html(data);
   });
 }
@@ -20,6 +21,7 @@ function getDirectoryContent(directoryName){
    // console.log('after'+globalDirectoryName);
   }
    $('#fileList').html('');
+   $('#fileData').html('');
   populateList(data);
   //console.log(data);
  // populatePage(data);
