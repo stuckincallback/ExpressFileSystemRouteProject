@@ -1,0 +1,5 @@
+{
+  "appTitle" : "Ohhhhhhhh-My-logssssssssssssss",
+  "whitelist" : [".txt", ".js"],
+  "blackList" : ["..","C:","D:"]
+}
